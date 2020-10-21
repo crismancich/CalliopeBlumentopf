@@ -27,11 +27,11 @@ Und weil ein Computer sich nummern mit Schaltern merkt, kann man sich mit dieser
 weniger Schaltern viel mehr merken. Wäre ja schlimm, wenn wir 1023 Finger bräuchten, um bis 1023 zu zählen. Jetzt weist du, warum Computer binär (Zweiersystem), also mit 1 und 0 rechnen und nicht im Zehnersystem (Decimalsystem) wie wir Menschen.
 
 ### Schon gewusst: 3,3 Volt sind 1023
-Der Calliope Mini kann auf Pins einen Strom mit einer Spannung von 3,3 Volt. Der Calliope Mini hand einen Wandler, mit dem er Spannung (analoges Signal) messen und in die digitale Computersprache übersetzen kann. Der analog digital Wandler hat 10 Bit mit dem er zählen kann. WIe unsere Zehn finger. ALso sind 0 Volt auch 0. Und 3,3 Volt, die höchste Zahl ist 1023, die höchste Zahl, die man mit 10 Bit (Fingern) rechnen kann. Wenn der A/D Wandler 511 anzeige (etwa die hälfte von 1023), dann hat er eine Spannung von ca 1,5 Volt (die Hälfte von 3,3 Volt gemessen). Jetzt erist du, warum der Calliope Mini bei lese analoge Werte irgendwas zwischen 0 und 1023 anzeigt.
+Der Calliope Mini kann auf Pins einen Strom mit einer Spannung von 3,3 Volt. Der Calliope Mini hat einen Wandler, mit dem er Spannung (analoges Signal) messen und in die digitale Computersprache übersetzen kann. Der analog digital Wandler hat 10 Bit mit dem er zählen kann. Wie unsere zehnFfinger. ALso sind 0 Volt auch 0. Und 3,3 Volt, die höchste Zahl ist 1023, die höchste Zahl, die man mit 10 Bit (Fingern) rechnen kann. Wenn der A/D Wandler 511 anzeige (etwa die Hälfte von 1023), dann hat er eine Spannung von ca 1,5 Volt (die Hälfte von 3,3 Volt gemessen). Jetzt weißt du, warum der Calliope Mini bei lese analoge Werte irgendwas zwischen 0 und 1023 anzeigt.
 
 ## So baust du den Blumentopf
 
-1. Eins der beiden Kabel schließt du an die Ecke 1 (Pin 1) und das anderen an Ecke 0  (Pin 0) deines Calliope an. Indem du die Drahtlitze durch das loch fädelst und drumwickelst, mit Krokodilsklemmen, wenn dein Kabel welche hat oder mit etwas Tesafilm die Drahtlitze drauf festkleben.
+1. Eins der beiden Kabel schließt du an die Ecke 1 (Pin 1) und das anderen an Ecke 0  (Pin 0) deines Calliope an. Indem du die Drahtlitze durch das Loch fädelst und drumwickelst, mit Krokodilsklemmen, wenn dein Kabel welche hat, oder mit etwas Tesafilm die Drahtlitze drauf festkleben.
 2. An das Ende der Kabel machst du jeweils eine Büroklammer. So berührt viel Metall die Erde
 3. Jetzt steckst du beide Kabelenden mit den Büroklammern in die Erde. Schön weit auseinander.
 
@@ -39,7 +39,7 @@ Der Calliope Mini kann auf Pins einen Strom mit einer Spannung von 3,3 Volt. Der
 Wir programmieren mit dem Editor unter http://makecode.calliope.cc
 
 Das wollen wir jetzt programmieren:
-1. Auf Pin 2 soll jetzt strom angemacht werden. Das findest du im Menü Pins unter FOrtgeschritten: [Schreibe digitale Werte von P0 auf 1]. Wie du oben gelernt hast, sind digitale Werte Strom, der an oder aus ist. Und mit 1 schreiben ist einschalten gemeint. Stromsprache halt. ! bedeutet an, 0 bedeutet aus. Wenn die Erde im Topf feucht ist, fließt jetzt Strom im Topf. Keine ANgst, das schadet der Plfanze nicht. Dafür ist der Strom viel zu klein. 
+1. Auf Pin 2 soll jetzt Strom angemacht werden. Das findest du im Menü Pins unter FOrtgeschritten: [Schreibe digitale Werte von P0 auf 1]. Wie du oben gelernt hast, sind digitale Werte Strom, der an oder aus ist. Und mit 1 schreiben ist einschalten gemeint. Stromsprache halt. ! bedeutet an, 0 bedeutet aus. Wenn die Erde im Topf feucht ist, fließt jetzt Strom im Topf. Keine ANgst, das schadet der Plfanze nicht. Dafür ist der Strom viel zu klein. 
 2. Jetzt wollen wir mit Pin 1 messen, wie viel Strom denn durch die Erde von einer Büroklammer zur anderen ankommt. Das geht mit [lese analogen Wert von P1]. Das Ergebnis kannst du dir anzeigen lassen mit [zeige nummer], dass du unter Grundlagen findest.
 
 ## Ab welchem Wert ist die Erde zu trocken?
