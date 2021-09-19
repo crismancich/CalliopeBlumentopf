@@ -22,7 +22,7 @@ Und mit [lese analogen Wert von Pin 1] kann der Calliope nachschauen, wie hoch d
 ### Schon gewusst? Wie Computer mit 10 Fingern bis 1023 zählen können
 Computer rechnen mit 1 und 0. Aber warum? Naja, du glaubst dass du mit deinen FIngern nur bis 10 zählen kannst?
 Falsch! Du kannst mit 10 Fingern bis 1023 zählen. Und das geht so. Der erste Finger ist die 1. Jeder weitere Finger doppelt so viel wie der rechte Nachbar.
-Also: 1 2 4 8 16 | 32 64 128 256 512. Bei einer 9 ist also der Finger 1 (kleiner Finger) und der Finger 8 (Zeigefinger) oben. 15 zählt man mit einer 8, einer 4, einer 2 und einer 1. Hier ist das toll erklärt. https://www.ardmediathek.de/tv/Die-Sendung-mit-der-Maus/Bis-1023-z%C3%A4hlen/Das-Erste/Video?bcastId=1458&documentId=39728814
+Also: 1 2 4 8 16 | 32 64 128 256 512. Bei einer 9 ist also der Finger 1 (kleiner Finger) und der Finger 8 (Zeigefinger) oben. 15 zählt man mit einer 8, einer 4, einer 2 und einer 1. Hier ist das toll erklärt: https://www.wdrmaus.de/filme/sachgeschichten/bis_1023_zaehlen.php5
 Und weil ein Computer sich nummern mit Schaltern merkt, kann man sich mit dieser Binären art zu zählen mit
 weniger Schaltern viel mehr merken. Wäre ja schlimm, wenn wir 1023 Finger bräuchten, um bis 1023 zu zählen. Jetzt weist du, warum Computer binär (Zweiersystem), also mit 1 und 0 rechnen und nicht im Zehnersystem (Decimalsystem) wie wir Menschen.
 
